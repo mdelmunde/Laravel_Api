@@ -14,7 +14,9 @@ class CadastroController extends Controller
     }
 
     
-    public function create(){}
+    public function create(){
+        return view('cadastro.home');
+    }
 
     public function store(Request $request)
     {
